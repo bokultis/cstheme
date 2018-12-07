@@ -1,0 +1,1 @@
+import Util from '../../../../node_modules/bootstrap/js/src/util'
