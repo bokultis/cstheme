@@ -1,4 +1,4 @@
-
+/*sass --watch src/styles/app.scss src/styles/css/app.css*/
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -146,3 +146,9 @@ body {
 .text-white {
     color: #fff!important;
 }
+
+.crveno{
+    background-color: red;
+}
+
+
