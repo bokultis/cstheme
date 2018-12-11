@@ -1,0 +1,62 @@
+/* Animation for fading slides */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.slider-container ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.slider-slide img {
+max-width: 100%;
+}
+
+.slider-slide-hidden {
+display: none;
+}
+
+.slider-slide-active {
+display: block;
+animation: fadeIn 0.85s ease-in-out;
+}
+
+.slider-controlls {
+    position: absolute;
+    bottom: 20px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.control-dots{
+    list-style: none;
+    li{
+        color: white;
+        font-size: 12px;
+        float: left;
+        padding: 5px;
+
+        a{
+            color:white;
+        }
+        a:hover{
+            color: antiquewhite;
+        }
+    }
+}
+
+
