@@ -1,4 +1,27 @@
 /*header styles 1234*/
-.nesto{
-    color:red;
+.csnavbar{
+position: fixed;
+width: 100%;
+right: 0px;
+}
+
+.csnavbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    a{
+        color:slategrey;
+    }
+}
+
+.csnav{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    a{
+        color: white;
+    }
+}
+
+.afs-1{
+    font-size: 15px;
 }

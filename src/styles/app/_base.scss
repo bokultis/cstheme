@@ -7,6 +7,62 @@ body {
     font-family: Roboto,'Helvetica Neue',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
     font-size: 1.125rem;
     font-weight: 400;
+    <<<<<<< HEAD
+    .fixed-top {
+        position: fixed;
+        z-index: 1030;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    
+    .navbar-dark .navbar-brand {
+        color: #fff;
+    }
+    
+    .spyre-navbar .navbar-text {
+        font-family: Oswald,'Helvetica Neue',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+        font-size: 1rem;
+        font-weight: 500;
+        position: relative;
+        transition: color .5s ease;
+    }
+    
+    .bg-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-image: url('../../images/backgrounds/bg-15.jpg');
+        transform: translate3d(0px, 0px, 0px);
+    }
+    
+    .overflow-hidden, .overflow-y-hidden {
+        overflow-y: hidden!important;
+    }
+    
+    .overflow-hidden, .overflow-x-hidden {
+        overflow-x: hidden!important;
+    }
+    
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    =======
+    >>>>>>> 08d5b7027ed1a9f35b34d53dfe2432a856159ada
     line-height: 1.5;
     margin: 0;
     text-align: left;
@@ -22,59 +78,6 @@ body {
     color: inherit;
 }
 
-.fixed-top {
-    position: fixed;
-    z-index: 1030;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
-.navbar-dark .navbar-brand {
-    color: #fff;
-}
-
-.spyre-navbar .navbar-text {
-    font-family: Oswald,'Helvetica Neue',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
-    font-size: 1rem;
-    font-weight: 500;
-    position: relative;
-    transition: color .5s ease;
-}
-
-.bg-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    background-image: url('../../images/backgrounds/bg-15.jpg');
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.overflow-hidden, .overflow-y-hidden {
-    overflow-y: hidden!important;
-}
-
-.overflow-hidden, .overflow-x-hidden {
-    overflow-x: hidden!important;
-}
-
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: -15px;
-    margin-left: -15px;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
 
 .fs--1 {
     font-size: .9375rem!important;
@@ -100,47 +103,21 @@ body {
     text-transform: uppercase!important;
 }
 
-.spyre-nav-link.dropdown-toggle::after, .zmdi {
-    font-family: Material-Design-Iconic-Font;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.bg-white{
+    background-color: $gray-400;
+    min-height: 200px;
+}
+.bg-black{
+    background-color: $black;
+    min-height: 200px;
 }
 
-
-.footer {
-    position: relative;
-    background-color: #1f2749;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: block;
-    background-image: url('../../images/footer-bg.jpg');
+.bg-green{
+    background-color: $green;
+    min-height: 200px;
 }
 
-.footer::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: '';
-    background-color: rgba(31,39,73,.97);
+.bg-gray{
+    background-color: $gray-500;
+    min-height: 200px;
 }
-
-.bg-secondary {
-    background-color: #1f2749!important;
-}
-
-.text-white {
-    color: #fff!important;
-}
-
-.crveno{
-    background-color: red;
-}
-
-
