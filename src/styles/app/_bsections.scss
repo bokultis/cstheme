@@ -1,8 +1,45 @@
 .bignumbers{
-    height: 200px;
-    border: 1px red solid;
+    color: $gray-900;
+    padding: 120px 0;
+}
+.bignumbers__icon{
+    float: left;
+    font-size: 40px;
+    font-weight: 100;
+    color: $gray-500;
 }
 
+.bignumbers__content{
+    float: left;
+    padding: 0 0 0 20px;
+}
+.bignumbers__title{
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gray-700;
+}
+.bignumbers__number{
+    font-size: 32px;
+    line-height: 20px;
+    font-weight: 6700;
+    text-transform: uppercase;
+}
+  
+/************************************************/
+
 .about{
-    height: 800px;
+    color: $white;
+    padding: 0;
+}
+
+.about__left{
+    background-color:$gray-900;
+    height: 650px;
+    padding: 100px;
+}
+
+.about__right{
+    background-image: url('../../images/home-classic-one-page-bg-03.jpg');
+    height: 650px;
 }
