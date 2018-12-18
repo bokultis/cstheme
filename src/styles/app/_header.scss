@@ -3,7 +3,7 @@
 position: fixed;
 padding-top: 20px;
 padding-bottom: 20px;
-width: 100%;
+width: 100vw;
 right: 0px;
 transition: all 500ms linear;
 background:rgba(53, 52, 52, 0.1);
@@ -22,7 +22,6 @@ background:rgba(53, 52, 52, 0.1);
 }
 
 .csnav{
-    width: 50%;
     a{
         font-size: 0.75em;
         color: white;

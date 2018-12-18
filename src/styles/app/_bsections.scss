@@ -29,7 +29,7 @@
 /************************************************/
 
 .about{
-    color: $white;
+    color: $gray-100;
     padding: 0;
 }
 
@@ -41,5 +41,112 @@
 
 .about__right{
     background-image: url('../../images/home-classic-one-page-bg-03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 650px;
+}
+
+.about__headline{
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: .052em;
+}
+
+.about__paragraph{
+    color: $gray-500;
+    padding: 10px 0;
+    letter-spacing: .052em;
+    line-height: 25px;
+}
+
+.about--smalltext{
+    font-size: 14px;
+}
+
+.about--mediumtext{
+    font-size: 18px;
+}
+
+.about--largetext{
+    font-size: 20px;
+    
+}
+
+/************************************************/
+.principles{
+    text-align: center;
+    padding: 120px 0;
+}
+
+.principles__headline{
+    color: $gray-700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: .052em;
+    padding-bottom: 120px;
+}
+
+.principles__title{
+    color: $gray-400;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 46px;
+    letter-spacing: .052em;
+}
+.principles__subtitle{
+    font-size: 20px;
+}
+
+.principles__paragraph{
+    color: $gray-900;
+    padding: 10px 0;
+    letter-spacing: .052em;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.principles_cell{
+    padding: 50px;
+    border-top: 1px $gray-200 solid;
+    border-right: 1px $gray-200 solid;
+}
+
+.principles_cell:last-child{
+    border-right: none;
+}
+
+/************************************************/
+.portfolio{
+    text-align: center;
+    padding: 120px 0;
+}
+.portfolio__icon{
+    font-size: 40px;
+    font-weight: 100;
+    color: $red;
+    display: block;
+    padding: 5px 0 20px 0;
+}
+
+.portfolio__title{
+    font-size: 16px;
+    clear: both;
+    font-weight: 600;
+}
+
+.portfolio__paragraph{
+    color: $gray-900;
+    padding: 10px 0;
+    letter-spacing: .052em;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.portfolio_cell{
+    padding: 50px;
+    border-right: 1px $gray-200 solid;
+}
+
+.principles_cell:last-child{
+    border-right: none;
 }
