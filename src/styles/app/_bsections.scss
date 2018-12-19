@@ -75,7 +75,7 @@
 /************************************************/
 .principles{
     text-align: center;
-    padding: 120px 0;
+    padding: 120px 0 0 0;
 }
 
 .principles__headline{
@@ -118,7 +118,7 @@
 /************************************************/
 .portfolio{
     text-align: center;
-    padding: 120px 0;
+    padding: 0px 0;
 }
 .portfolio__icon{
     font-size: 40px;
@@ -149,4 +149,49 @@
 
 .principles_cell:last-child{
     border-right: none;
+}
+
+/***************************************/
+.gallery{
+    padding: 120px 0;
+    background-color: $gray-200;
+}
+
+.gallery__list{
+    list-style: none;
+}
+
+.gallery__list li{
+    float: left;
+    display: flex;
+    padding: 25px;
+}
+
+/***************************************/
+.mission{
+    background: url("../../images/landing-104-1920x1348.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.mission__headline{
+    color: $gray-100;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: .052em;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.mission__headline__prominent{
+    color:$red;
+}
+.mission__paragraph{
+    color: $gray-100;
+    padding: 10px 0;
+    letter-spacing: .052em;
+    line-height: 25px;
+    font-size: 14px;
 }

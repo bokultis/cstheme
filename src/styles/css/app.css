@@ -6990,7 +6990,7 @@ body {
 /************************************************/
 .principles {
   text-align: center;
-  padding: 120px 0; }
+  padding: 120px 0 0 0; }
 
 .principles__headline {
   color: #495057;
@@ -7027,7 +7027,7 @@ body {
 /************************************************/
 .portfolio {
   text-align: center;
-  padding: 120px 0; }
+  padding: 0px 0; }
 
 .portfolio__icon {
   font-size: 40px;
@@ -7054,5 +7054,44 @@ body {
 
 .principles_cell:last-child {
   border-right: none; }
+
+/***************************************/
+.gallery {
+  padding: 120px 0;
+  background-color: #e9ecef; }
+
+.gallery__list {
+  list-style: none; }
+
+.gallery__list li {
+  float: left;
+  display: flex;
+  padding: 25px; }
+
+/***************************************/
+.mission {
+  background: url("../../images/landing-104-1920x1348.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0; }
+
+.mission__headline {
+  color: #f8f9fa;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: .052em;
+  padding-bottom: 20px;
+  font-weight: 800; }
+
+.mission__headline__prominent {
+  color: #dc3545; }
+
+.mission__paragraph {
+  color: #f8f9fa;
+  padding: 10px 0;
+  letter-spacing: .052em;
+  line-height: 25px;
+  font-size: 14px; }
 
 /*# sourceMappingURL=app.css.map */
