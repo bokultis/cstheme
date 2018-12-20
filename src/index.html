@@ -133,7 +133,7 @@
                         <p class="about__paragraph about--mediumtext">
                             We create premium designs and technologies
                         </p>
-                        <h4 class="about__headline">We are a digital studio crafting beautiful experiences</h4>
+                        <h3 class="section-headline about__headline">We are a digital studio crafting beautiful experiences</h3>
                         <p class="about__paragraph about--largetext">
                             We always stay on the cutting edge of digital, so that our clients maintain their competitive advantage online.
                         </p>
@@ -152,11 +152,11 @@
         </section>
         <!-- End of Section -->
         <!-- Section -->
-        <section class="principles">
+        <section class="principles text-center">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4 offset-sm-4">
-                        <h4 class="principles__headline">Our projects are built on four basic principles</h4>
+                        <h3 class="section-headline principles__headline">Our projects are built on four basic principles</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -193,8 +193,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
-                        <span>OUR RECENT WORKS</span>
-                        <h2>Gallery</h2>
+                        <span class="section-ontoptitle">OUR RECENT WORKS</span>
+                        <h3 class="section-headline">Gallery</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -229,7 +229,7 @@
         </section>
         <!-- End of Section -->
         <!-- Section -->
-        <section class="portfolio">
+        <section class="portfolio text-center">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-3 portfolio_cell">
@@ -261,7 +261,7 @@
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-sm-4 offset-4 text-center">
-                        <h3 class="mission__headline">
+                        <h3 class="section-headline">
                             Dedicated
                             <span class="mission__headline__prominent">24/7</span> Support
                         </h3>
@@ -274,46 +274,66 @@
             </div>
         </section>
         <!-- End of Section -->
-        <!-- Section -->
-        <section class="services">
-            <div class="container-fluid ">
 
-                <div class="row">
-                    <div class="col-sm-6">
-
-                    </div>
-                    <div class="col-sm-6">
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of Section -->
-        <!-- Section -->
-        <section class="contact-info">
-            <div class="container-fluid ">
-                <div class="row">
-                    <div class="col-sm-6 bg-black">
-
-                    </div>
-                    <div class="col-sm-6 bg-black">
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of Section -->
         <!-- Section -->
         <section class="contact-form">
-            <div class="container-fluid ">
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 bg-white">
-
+                    <div class="col-sm-12 text-center">
+                        <h3 class="section-headline contact-form__headline">
+                            GET IN TOUCH WITH US
+                        </h3>
+                        <p class="contact-form__paragraph">
+                            You can contact us any way that is convenient for you. We are available 24/7 via fax, email or telephone. You can also use
+                            a quick contact form on the right or visit our office personally. We would be happy to answer
+                            your questions.
+                        </p>
                     </div>
                 </div>
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-input form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-input form-control" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input type="email" class="form-input form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <select id="inputState" class="form-input form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <textarea class="form-input form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <button type="submit" class="btn btn-danger">Sign in</button>
+                        </div>
+                    </div>
+
+                </form>
             </div>
         </section>
         <!-- End of Section -->
+        <!-- Section -->
+        <section class="google-map">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="my-map" class="google-map__area"></div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- End of Main Content -->
 
@@ -349,6 +369,27 @@
             delay: 7000
         });
     </script>
+
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('my-map'), {
+                center: { lat: 43.320772, lng: 21.894180 },
+                zoomControl: false,
+  mapTypeControl: false,
+  scaleControl: false,
+  streetViewControl: false,
+  rotateControl: false,
+  fullscreenControl: false,
+  scrollwheel: false,
+
+                zoom: 15
+                
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDucxp8ym10Uz4VFchcrv-hC3ZkbbA5Nc4&callback=initMap" async
+        defer></script>
 </body>
 
 </html>
