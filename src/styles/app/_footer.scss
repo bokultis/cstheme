@@ -1,0 +1,43 @@
+.footer{
+    width: 100%;
+    background-color: #191919;
+    min-height: 500px;
+    position: relative;
+    color: #939393;
+    padding: 80px 0 0 0;
+}
+
+.footer-bottom{
+    min-height: 80px;
+    background-color: #141414;
+    position: absolute;
+    bottom: 0px;
+}
+.footer__logo{
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+
+.footer__title{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.footer__about{
+    border-right: 1px $gray-800 solid;
+}
+
+.footer__menu{
+    border-right: 1px $gray-800 solid;
+}
+
+.footer__address{
+    border-right: 1px $gray-800 solid;
+}
+
+.footer-bottom__copyright{
+    font-size: 11px;
+    padding: 30px 0 0 0;
+}
+
