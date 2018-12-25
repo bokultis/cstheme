@@ -41,8 +41,12 @@ https://getbootstrap.com/docs/4.1/content/reboot/
     <header>
         <!-- Navigation -->
 
-        <nav class="csnavbar site-header sticky-top">
-            <div class="container csnav d-flex flex-column flex-md-row justify-content-between">
+        <!-- <nav class="navbar csnavbar site-header sticky-top navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="container csnav d-flex flex-column flex-md-row justify-content-between" id="navbarSupportedContent">
+                
                 <a class="py-3" href="#">
                     <img src="images/logo.png" alt="cstheme" />
                 </a>
@@ -53,38 +57,76 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                 <a class="py-3 d-none d-md-inline-block" href="#">Services</a>
                 <a class="py-3 d-none d-md-inline-block" href="#">Contact</a>
             </div>
-        </nav>
+        </nav>  -->
 
-        <!-- End of Navigation -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="slider-container">
-                    <!-- Slider list -->
-                    <ul class="slider-list">
-                        <li class="slider-slide slider-slide-active">
-                            <img src="images/home-digital-agency-slider-03.jpg" alt="" />
-                        </li>
-                        <li class="slider-slide slider-slide-hidden">
-                            <img src="images/home-digital-agency-slider-02.jpg" alt="" />
-                        </li>
-                        <li class="slider-slide slider-slide-hidden">
-                            <img src="images/home-digital-agency-slider-01.jpg" alt="" />
-                        </li>
-                    </ul>
-                    <!-- .end Slider list -->
+        <nav class="navbar navbar-expand-lg sticky-top csnavbar">
+                <a class="py-3 navbar-brand" href="#">
+                        <img src="images/logo.png" alt="cstheme" />
+                    </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button>
 
-                    <!-- Slider controls -->
-                    <div class="slider-controlls">
-                        <ul class="control-dots">
+            <div class="collapse navbar-collapse csnav" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
 
-                        </ul>
-                    </div>
-                    <!-- .end Slider controls -->
-                </div>
-                <!-- .end Slider container -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
             </div>
-        </div>
+        </nav>
     </header>
+    <!-- .navbar -->
+
+    <!-- End of Navigation -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="slider-container">
+                <!-- Slider list -->
+                <ul class="slider-list">
+                    <li class="slider-slide slider-slide-active">
+                        <img src="images/home-digital-agency-slider-03.jpg" alt="" />
+                    </li>
+                    <li class="slider-slide slider-slide-hidden">
+                        <img src="images/home-digital-agency-slider-02.jpg" alt="" />
+                    </li>
+                    <li class="slider-slide slider-slide-hidden">
+                        <img src="images/home-digital-agency-slider-01.jpg" alt="" />
+                    </li>
+                </ul>
+                <!-- .end Slider list -->
+
+                <!-- Slider controls -->
+                <div class="slider-controlls">
+                    <ul class="control-dots">
+
+                    </ul>
+                </div>
+                <!-- .end Slider controls -->
+            </div>
+            <!-- .end Slider container -->
+        </div>
+    </div>
+
     <!-- End of Header -->
 
 
@@ -375,7 +417,7 @@ https://getbootstrap.com/docs/4.1/content/reboot/
     <footer class="footer fs--2">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3 footer__about">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-3 footer__about footer--makeitspace">
                     <a class="py-3 footer__logo" href="#">
                         <img src="images/logo-white.png" alt="cstheme" />
                     </a>
@@ -384,39 +426,51 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                         brand identity and more.
                     </p>
                 </div>
-                <div class="col-sm-3 footer__menu">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-3 footer__menu footer--makeitspace">
                     <h3 class="footer__title">What we are doing</h3>
                     <ul>
-                        <li><a href="">Web Design</a></li>
-                        <li><a href="">Web Development</a></li>
-                        <li><a href="">Branding</a></li>
-                        <li><a href="">SEO &amp; SMM</a></li>
+                        <li>
+                            <a href="">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="">Web Development</a>
+                        </li>
+                        <li>
+                            <a href="">Branding</a>
+                        </li>
+                        <li>
+                            <a href="">SEO &amp; SMM</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-sm-3 footer__address">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-3 footer__address footer--makeitspace">
                     <h3 class="footer__title">Contact info</h3>
-                    Consent Design Agency <br />222 Stonybrook St. Los Angeles, <br />CA 90044 Email:info@demolink.org <br />Phone: +1 (0) 213-283-3723
+                    Consent Design Agency
+                    <br />222 Stonybrook St. Los Angeles, CA 90044
+                    <br />
+                    <br /> Email:info@demolink.org
+                    <br />Phone: +1 (0) 213-283-3723
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4 col-md-3 col-lg-4 col-xl-3 footer--makeitspace d-none d-xl-block">
                     <h3 class="footer__title">Gallery</h3>
                     <ul class="footer__gallery">
                         <li>
-                            <img src="https://source.unsplash.com/0Y1qUg1w2bs/480x250" />
+                            <img src="https://source.unsplash.com/0Y1qUg1w2bs/100x100" />
                         </li>
                         <li>
-                            <img src="https://source.unsplash.com/EyER7qtBKZM/480x250" />
+                            <img src="https://source.unsplash.com/EyER7qtBKZM/100x100" />
                         </li>
                         <li>
-                            <img src="https://source.unsplash.com/-u4ddXsjULQ/480x250" />
+                            <img src="https://source.unsplash.com/-u4ddXsjULQ/100x100" />
                         </li>
                         <li>
-                            <img src="https://source.unsplash.com/zDSVz1TfHVw/480x250" />
+                            <img src="https://source.unsplash.com/zDSVz1TfHVw/100x100" />
                         </li>
                         <li>
-                            <img src="https://source.unsplash.com/g8OgQYKT9e4/480x250" />
+                            <img src="https://source.unsplash.com/g8OgQYKT9e4/100x100" />
                         </li>
                         <li>
-                            <img src="https://source.unsplash.com/opFPVxMRpP8/480x250" />
+                            <img src="https://source.unsplash.com/opFPVxMRpP8/100x100" />
                         </li>
                     </ul>
                 </div>
@@ -425,7 +479,7 @@ https://getbootstrap.com/docs/4.1/content/reboot/
         <div class="container-fluid footer-bottom">
             <div class="row">
                 <div class="col-sm-3 offset-9 footer-bottom__copyright">
-                &copy; Copyright 2018 CS Theme in making
+                    &copy; Copyright 2018 CS Theme in making
                 </div>
             </div>
         </div>

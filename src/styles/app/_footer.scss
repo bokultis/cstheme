@@ -4,7 +4,7 @@
     min-height: 500px;
     position: relative;
     color: #939393;
-    padding: 80px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 .footer-bottom{
@@ -30,6 +30,21 @@
 
 .footer__menu{
     border-right: 1px $gray-800 solid;
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        color: #939393;
+        margin-bottom:10px;
+        display: inline-block;
+    }
+    a:hover{
+        color: $red;
+        text-transform: none;
+        text-decoration: none;
+    }
 }
 
 .footer__address{
@@ -41,8 +56,24 @@
     padding: 30px 0 0 0;
 }
 
+.footer--makeitspace{
+    padding: 0 35px 0 35px;
+}
+
 .footer__gallery{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li{
+        float: left;
+        padding: 3px;
+    }
+
+    li img{
+        width: 80px;
+        height: 80px;
+    }
 }
 

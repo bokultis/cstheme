@@ -6774,10 +6774,7 @@ a.text-dark:hover, a.text-dark:focus {
 /*header styles 1234*/
 .csnavbar {
   position: fixed;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 100vw;
-  right: 0px;
+  width: 100%;
   transition: all 500ms linear;
   background: rgba(53, 52, 52, 0.1); }
 
@@ -6807,7 +6804,7 @@ a.text-dark:hover, a.text-dark:focus {
   min-height: 500px;
   position: relative;
   color: #939393;
-  padding: 80px 0 0 0; }
+  padding: 50px 0 0 0; }
 
 .footer-bottom {
   min-height: 80px;
@@ -6829,6 +6826,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer__menu {
   border-right: 1px #343a40 solid; }
+  .footer__menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .footer__menu a {
+    color: #939393;
+    margin-bottom: 10px;
+    display: inline-block; }
+  .footer__menu a:hover {
+    color: #dc3545;
+    text-transform: none;
+    text-decoration: none; }
 
 .footer__address {
   border-right: 1px #343a40 solid; }
@@ -6836,6 +6845,21 @@ a.text-dark:hover, a.text-dark:focus {
 .footer-bottom__copyright {
   font-size: 11px;
   padding: 30px 0 0 0; }
+
+.footer--makeitspace {
+  padding: 0 35px 0 35px; }
+
+.footer__gallery {
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  .footer__gallery li {
+    float: left;
+    padding: 3px; }
+  .footer__gallery li img {
+    width: 80px;
+    height: 80px; }
 
 /* Animation for fading slides */
 @keyframes fadeIn {
