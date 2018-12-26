@@ -22,6 +22,9 @@ section{
 .bignumbers{
     color: $gray-900;
 }
+.bignumbers__container{
+    padding: 15px 0 0 25px;
+}
 .bignumbers__icon{
     float: left;
     font-size: 40px;
@@ -169,17 +172,39 @@ section{
 /***************************************/
 .gallery{
     background-color: $gray-200;
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
 }
 
-.gallery__list{
-    list-style: none;
-}
-
-.gallery__list li{
-    float: left;
+.image-section{
     display: flex;
-    padding: 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    li{
+        padding: 25px;
+    }
+    img{
+        width: 100%;
+    }
 }
+
+
+
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (max-width: 768px) {
+//     .gallery__list li{
+//         img{
+//             width: 33%;
+//         }
+//     }
+// } 
+
+
+
 
 /***************************************/
 .mission{

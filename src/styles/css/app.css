@@ -6801,10 +6801,11 @@ a.text-dark:hover, a.text-dark:focus {
 .footer {
   width: 100%;
   background-color: #191919;
-  min-height: 500px;
+  min-height: 420px;
   position: relative;
   color: #939393;
-  padding: 50px 0 0 0; }
+  padding: 50px 0 0 0;
+  padding-bottom: 90px; }
 
 .footer-bottom {
   min-height: 80px;
@@ -7014,6 +7015,9 @@ section {
 .bignumbers {
   color: #212529; }
 
+.bignumbers__container {
+  padding: 15px 0 0 25px; }
+
 .bignumbers__icon {
   float: left;
   font-size: 40px;
@@ -7138,14 +7142,20 @@ section {
 /***************************************/
 .gallery {
   background-color: #e9ecef; }
+  .gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
 
-.gallery__list {
-  list-style: none; }
-
-.gallery__list li {
-  float: left;
+.image-section {
   display: flex;
-  padding: 25px; }
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+  .image-section li {
+    padding: 25px; }
+  .image-section img {
+    width: 100%; }
 
 /***************************************/
 .mission {
