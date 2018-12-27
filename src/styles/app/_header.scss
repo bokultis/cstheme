@@ -17,6 +17,36 @@ background:rgba(53, 52, 52, 0.1);
         color:slategrey;
     }
 }
+
+.nav-poss{
+    margin: 0 auto;
+    max-width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    @media (min-width: 576px){
+        max-width: 540px;
+    }
+    @media (min-width: 768px){
+        max-width: 720px;
+    }
+    @media (min-width: 992px){
+        max-width: 960px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    .nav-item{
+        width: 120px;
+    }
+    
+    
+}
 //comment
 
 .csnav{

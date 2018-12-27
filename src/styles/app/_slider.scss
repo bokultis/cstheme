@@ -11,17 +11,20 @@
 .slider-container {
     position: relative;
     max-width: 100%;
+    width: 100%;
 }
 
 .slider-list{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    
 }
 
 
 .slider-slide img {
 max-width: 100%;
+width: 100%;
 }
 
 .slider-slide-hidden {
