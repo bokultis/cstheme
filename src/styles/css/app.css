@@ -6904,7 +6904,32 @@ a.text-dark:hover, a.text-dark:focus {
 
 .slider-slide img {
   max-width: 100%;
-  width: 100%; }
+  width: 100%;
+  max-height: 100%;
+  height: 100%; }
+
+.slider-slide h2 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #f8f9fa; }
+
+.slider-slide .h2-pos-1 {
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  width: 35%; }
+
+.slider-slide .h2-pos-2 {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  width: 35%; }
+
+.slider-slide .h2-pos-3 {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  width: 35%; }
 
 .slider-slide-hidden {
   display: none; }
@@ -7077,7 +7102,7 @@ section {
   padding: 100px; }
 
 .about__right {
-  background-image: url("../../images/home-classic-one-page-bg-03.jpg");
+  background-image: url("../../images/content/edho-pratama-T6fDN60bMWY-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 650px; }
@@ -7136,33 +7161,26 @@ section {
   border-right: none; }
 
 /************************************************/
-.portfolio {
-  padding: 0; }
-
-.portfolio__icon {
-  font-size: 40px;
-  font-weight: 100;
-  color: #dc3545;
+.team__img {
   display: block;
-  padding: 5px 0 20px 0; }
+  margin: auto; }
 
-.portfolio__title {
+.team__title {
   font-size: 16px;
   clear: both;
   font-weight: 600; }
 
-.portfolio__paragraph {
+.team__paragraph {
   color: #212529;
   padding: 10px 0;
   letter-spacing: .052em;
   line-height: 25px;
   font-size: 14px; }
 
-.portfolio_cell {
-  padding: 50px;
-  border-right: 1px #e9ecef solid; }
+.team_cell {
+  padding: 45px; }
 
-.principles_cell:last-child {
+.team_cell:last-child {
   border-right: none; }
 
 /***************************************/

@@ -63,7 +63,7 @@ section{
 }
 
 .about__right{
-    background-image: url('../../images/home-classic-one-page-bg-03.jpg');
+    background-image: url('../../images/content/edho-pratama-T6fDN60bMWY-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 650px;
@@ -135,24 +135,21 @@ section{
 }
 
 /************************************************/
-.portfolio{
-    padding: 0;
+.team{
+
 }
-.portfolio__icon{
-    font-size: 40px;
-    font-weight: 100;
-    color: $red;
+.team__img{
     display: block;
-    padding: 5px 0 20px 0;
+    margin: auto;
 }
 
-.portfolio__title{
+.team__title{
     font-size: 16px;
     clear: both;
     font-weight: 600;
 }
 
-.portfolio__paragraph{
+.team__paragraph{
     color: $gray-900;
     padding: 10px 0;
     letter-spacing: .052em;
@@ -160,12 +157,11 @@ section{
     font-size: 14px;
 }
 
-.portfolio_cell{
-    padding: 50px;
-    border-right: 1px $gray-200 solid;
+.team_cell{
+    padding: 45px;
 }
 
-.principles_cell:last-child{
+.team_cell:last-child{
     border-right: none;
 }
 
