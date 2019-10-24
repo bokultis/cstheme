@@ -28,9 +28,10 @@ height: 100%;
 }
 
 .slider-slide h2 {
-font-size: 4em;
-font-weight: bold;
-color:#f8f9fa;
+    font-size: 3em;
+    font-weight: bold;
+    color:$gray-400;
+    text-shadow: -1px 0 $gray-400, 0 1px $gray-400, 1px 0 $gray-400, 0 -1px $gray-400;
 }
 
 .slider-slide .h2-pos-1 {
@@ -50,8 +51,10 @@ color:#f8f9fa;
 .slider-slide .h2-pos-3 {
     position: absolute;
     left: 10%;
-    top: 15%;
+    top: 25%;
     width: 35%;
+    color: #3c6d17;
+    text-shadow: -1px 0 #9ABC89, 0 1px #9ABC89, 1px 0 #9ABC89, 0 -1px #9ABC89;
 }
 
 

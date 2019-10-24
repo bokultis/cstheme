@@ -6776,7 +6776,9 @@ a.text-dark:hover, a.text-dark:focus {
   position: fixed;
   width: 100%;
   transition: all 500ms linear;
-  background: rgba(53, 52, 52, 0.1); }
+  background: rgba(239, 239, 239, 0.4); }
+  .csnavbar a {
+    color: slategrey; }
 
 .csnavbar.scrolled {
   padding-top: 10px;
@@ -6787,6 +6789,12 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
   .csnavbar.scrolled a {
     color: slategrey; }
+
+.csnavbar.scrolled .lnr {
+  color: black; }
+
+.csnavbar .lnr {
+  color: black; }
 
 .nav-poss {
   margin: 0 auto;
@@ -6909,9 +6917,10 @@ a.text-dark:hover, a.text-dark:focus {
   height: 100%; }
 
 .slider-slide h2 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
-  color: #f8f9fa; }
+  color: #ced4da;
+  text-shadow: -1px 0 #ced4da, 0 1px #ced4da, 1px 0 #ced4da, 0 -1px #ced4da; }
 
 .slider-slide .h2-pos-1 {
   position: absolute;
@@ -6928,8 +6937,10 @@ a.text-dark:hover, a.text-dark:focus {
 .slider-slide .h2-pos-3 {
   position: absolute;
   left: 10%;
-  top: 15%;
-  width: 35%; }
+  top: 25%;
+  width: 35%;
+  color: #3c6d17;
+  text-shadow: -1px 0 #9ABC89, 0 1px #9ABC89, 1px 0 #9ABC89, 0 -1px #9ABC89; }
 
 .slider-slide-hidden {
   display: none; }
@@ -7181,6 +7192,38 @@ section {
   padding: 45px; }
 
 .team_cell:last-child {
+  border-right: none; }
+
+/***************************************/
+/************************************************/
+.services__img {
+  display: block;
+  margin: auto; }
+
+.services__icon {
+  clear: both;
+  padding: 20px;
+  font-size: 70px;
+  font-weight: 100;
+  color: #da4f49;
+  display: block; }
+
+.services__title {
+  font-size: 16px;
+  clear: both;
+  font-weight: 600; }
+
+.services__paragraph {
+  color: #212529;
+  padding: 10px 0;
+  letter-spacing: .052em;
+  line-height: 25px;
+  font-size: 14px; }
+
+.services_cell {
+  padding: 45px; }
+
+.services_cell:last-child {
   border-right: none; }
 
 /***************************************/

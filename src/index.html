@@ -10,10 +10,26 @@ https://getbootstrap.com/docs/4.1/content/reboot/
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Page Title -->
-    <title>Codespeed or any sutable name we came up with!?</title>
+    <title>CodeCrafter Marketing Technologies</title>
 
     <!-- Favicons -->
-    <link href="images/favicons/favicon-32x32.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
     <!-- Vendor Stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet">
@@ -35,7 +51,7 @@ https://getbootstrap.com/docs/4.1/content/reboot/
     </script>
 </head>
 
-<body>
+<body id="top">
 
     <!-- Header -->
     <header>
@@ -60,9 +76,8 @@ https://getbootstrap.com/docs/4.1/content/reboot/
         </nav>  -->
 
         <nav class="navbar navbar-expand-lg sticky-top csnavbar">
-          
                     <div class="nav-poss">
-                        <a class="py-3 navbar-brand" href="#">
+                        <a class="py-3 navbar-brand d-none d-sm-block" href="#top">
                             <img src="images/logo.png" alt="cstheme" />
                         </a>
                     
@@ -76,22 +91,24 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                             <ul class="navbar-nav mr-auto py-3 ">
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Početna</a>
+                                    <a class="nav-link" href="#top">Početna</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">O Nama</a>
+                                    <a class="nav-link" href="#about">O Nama</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Portfolio</a>
+                                    <a class="nav-link" href="#portfolio">Ponuda</a>
+                                </li>
+                                <!-- 
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#testimonials">Utisci</a>
+                                </li>
+                                -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#services">Servisi</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Utisci</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Servisi</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Kontakt</a>
+                                    <a class="nav-link" href="#contact">Kontakt</a>
                                 </li>
 
                             </ul>
@@ -109,15 +126,15 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                 <!-- Slider list -->
                 <ul class="slider-list">
                     <li class="slider-slide slider-slide-active">
-                        <h2 class="h2-pos-1">Nekakva poruka, mozda malo duza da pokrije slider.</h2>
+                        <h2 class="h2-pos-1 d-none d-xl-block">Tim profesionalaca koji vole svoj posao.</h2>
                         <img src="images/slider/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="" />
                     </li>
                     <li class="slider-slide slider-slide-hidden">
-                            <h2 class="h2-pos-2">Nekakva poruka, mozda malo duza da pokrije slider.</h2>
+                            <h2 class="h2-pos-2 d-none d-xl-block">Preko 10 godina iskustva u stvaranju novih vrednosti.</h2>
                         <img src="images/slider/marek-levak-YPeqMN_wfw0-unsplash.jpg" alt="" />
                     </li>
                     <li class="slider-slide slider-slide-hidden">
-                            <h2 class="h2-pos-3">Nekakva poruka, mozda malo duza da pokrije slider.</h2>
+                            <h2 class="h2-pos-3 d-none d-xl-block">Pretvaramo ideje u realne projekte.</h2>
                         <img src="images/slider/dose-media-bU6JyhSI6zo-unsplash.jpg" alt="" />
                     </li>
                 </ul>
@@ -147,7 +164,7 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                     <div class="col-sm-6 col-md-6 col-lg-3 bignumbers__container">
                         <i class="lnr lnr-mustache bignumbers__icon"></i>
                         <div class="bignumbers__content">
-                            <h5 class="bignumbers__number">120+</h5>
+                            <h5 class="bignumbers__number">120<sup class="small text-danger">+</sup></h5>
                             <span class="bignumbers__title">Klijenata</span>
                         </div>
                     </div>
@@ -155,21 +172,21 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                     <div class="col-sm-6 col-md-6 col-lg-3 bignumbers__container">
                         <i class="lnr lnr-laptop-phone bignumbers__icon"></i>
                         <div class="bignumbers__content">
-                            <h5 class="bignumbers__number">180+</h5>
+                            <h5 class="bignumbers__number">180<sup class="small text-danger">+</sup></h5>
                             <span class="bignumbers__title">Projekata</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 bignumbers__container">
-                        <i class="lnr lnr-gift bignumbers__icon"></i>
+                        <i class="lnr lnr-thumbs-up bignumbers__icon"></i>
                         <div class="bignumbers__content">
-                            <h5 class="bignumbers__number">450+</h5>
+                            <h5 class="bignumbers__number">450<sup class="small text-danger">+</sup></h5>
                             <span class="bignumbers__title">Kampanja</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 bignumbers__container">
-                        <i class="lnr lnr-rocket bignumbers__icon"></i>
+                        <i class="lnr lnr-phone-handset bignumbers__icon"></i>
                         <div class="bignumbers__content">
-                            <h5 class="bignumbers__number">895+</h5>
+                            <h5 class="bignumbers__number">30<sup class="small text-danger">+</sup></h5>
                             <span class="bignumbers__title">Sati podrške</span>
                         </div>
                     </div>
@@ -178,25 +195,28 @@ https://getbootstrap.com/docs/4.1/content/reboot/
             </div>
         </section>
         <!-- End of Section -->
+        <a id="about"></a>
         <!-- Section -->
         <section class="about bg-shadow">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-6 about__left">
                         <p class="about__paragraph about--mediumtext">
-                            We create premium designs and technologies
+                            Kreiramo savremene, pouzdane i moderne digitalne proizvode
                         </p>
-                        <h3 class="section-headline about__headline">We are a digital studio crafting beautiful experiences</h3>
+                        <h3 class="section-headline about__headline">Stvaramo nova digitalna iskustva</h3>
                         <p class="about__paragraph about--largetext">
-                            We always stay on the cutting edge of digital, so that our clients maintain their competitive advantage online.
+                            Uvek smo u toku sa novim, modernim, efektnim idejama. <br />Da bi smo kljientima pomogli da postignu najbolje
                         </p>
                         <p class="about__paragraph about--smalltext">
-                            Small and medium-sized businesses partner with Consent to help them grow. We work with owners and entrepreneurs to help them
-                            build a sustainable business through data-driven creative marketing, branding, web design, and
-                            development that are all aimed at moving the revenue needle. We’re a true business partner and
-                            our dedicated industry practice can help you define and meet specific business goals.
+                            Partneri smo malim i srednjim preduzetnicima kojima pomažemo da rastu i napreduju. Dinamika njihovog poslovanja je ono što nas privlači.
+                            Pomažemo da definišu i održe kvalitetno prisustvo na internetu. <br />Da budu prepoznati na pravi način. Da njihovi proizvodi budu dostupni i jasno predstavljeni.
+                            Naše iskustvo i znanje koristimo za obostrani benefit. Gradimo i za nas i naše partnere nova iskustva i nove vrednosti.
+                            Posvećeni smo detaljima i svakom klijentu u želji da postignemo realne rezultate, pre svega u vidu unapređenja poslovanje.
+<br />
+                            Ne nudimo samo jednosmernu uslugu ili servise, zajedno pratimo rast, rešavamo potencijalne probleme i nudimo nove ideje i rešenja.
                         </p>
-                        <a href="#" class="btn btn-info">Read more</a>
+                        <a href="#contact" class="btn btn-info">Pozovite nas</a>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6 about__right d-none d-lg-block">
                     </div>
@@ -208,46 +228,43 @@ https://getbootstrap.com/docs/4.1/content/reboot/
         <section class="principles text-center">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-4 offset-sm-4">
+                    <div class="col-sm-6 offset-sm-3">
                         <h3 class="section-headline principles__headline">Naši projekti su zasnovani na četiri osnovna principa</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-3 principles_cell">
-                        <h2 class="principles__title">01</h2>
+                        <h2 class="principles__title">0<span class="text-danger">1</span></h2>
                         <span class="principles__subtitle">Efektnost</span>
-                        <p class="principles__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on. Creativity
-                            helps us design better websites for you.</p>
+                        <p class="principles__paragraph">Razumevanjem potreba naših klijenata i njihovih proizvoda uz moderan dizajn i pouzdanost softvera postižemo efektan uticaj na njihovo tržište. I merljive marketinške rezultate.</p>
                     </div>
                     <div class="col-sm-3 principles_cell">
-                        <h2 class="principles__title">01</h2>
+                        <h2 class="principles__title">0<span class="text-danger">2</span></h2>
                         <span class="principles__subtitle">Konkurentnost</span>
-                        <p class="principles__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on. Creativity
-                            helps us design better websites for you.</p>
+                        <p class="principles__paragraph">Na današnjem tržištu sa izraženom konkurencijom trudimo se da naši klijenti budu ispred svih ostalih. To postižemo kreativnošću i posvećenošću njihovim potrebama i ciljevima.</p>
                     </div>
                     <div class="col-sm-3 principles_cell">
-                        <h2 class="principles__title">01</h2>
+                        <h2 class="principles__title">0<span class="text-danger">3</span></h2>
                         <span class="principles__subtitle">Jednostavnost</span>
-                        <p class="principles__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on. Creativity
-                            helps us design better websites for you.</p>
+                        <p class="principles__paragraph">Osnovna premisa svakog našeg proizvoda ili usluge je da pouzdano i efikasno funkcioniše i da se lako održava. Jednostavnost i pouzdanos softvera su preduslovi koji to omogućavaju.</p>
                     </div>
                     <div class="col-sm-3 principles_cell">
-                        <h2 class="principles__title">01</h2>
+                        <h2 class="principles__title">0<span class="text-danger">4</span></h2>
                         <span class="principles__subtitle">Pristupačnost</span>
-                        <p class="principles__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on. Creativity
-                            helps us design better websites for you.</p>
+                        <p class="principles__paragraph">Kvalitetan proizvod zahteva minimalno održavanje i samim tim minimalne troškove.Uz znanje i iskustvo to je ključ pristupačnosti naših proizvoda.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End of Section -->
+        <a id="portfolio"></a>
         <!-- Section -->
         <section class="gallery text-center bg-shadow">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
-                        <span class="section-ontoptitle">OUR RECENT WORKS</span>
-                        <h3 class="section-headline">Gallery</h3>
+                        <span class="section-ontoptitle">Jasan pregled šta CodeCrafter nudi sa precizno definisanim cenama</span>
+                        <h3 class="section-headline">Ponuda</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -282,7 +299,7 @@ https://getbootstrap.com/docs/4.1/content/reboot/
         </section>
         <!-- End of Section -->
         <!-- Section -->
-        <section class="team text-center">
+        <section class="team text-center"><a id="team"></a>
             <div class="container-fluid">
                     <div class="row">
                             <div class="col-sm-12 text-center">
@@ -292,22 +309,22 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                             </div>
                         </div>
                 <div class="row">
-                    <div class="col-sm-3 team_cell">
+                    <div class="col-sm-6 col-md-6 col-lg-3 team_cell">
                         <img class="team__img" src="images/tm.jpg" />
                         <span class="team__title">Boris Kundačina</span>
                         <p class="team__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
                     </div>
-                    <div class="col-sm-3 team_cell">
+                    <div class="col-sm-6 col-md-6 col-lg-3 team_cell">
                             <img class="team__img" src="images/tm.jpg" />
                         <span class="team__title">Iva Stanković</span>
                         <p class="team__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
                     </div>
-                    <div class="col-sm-3 team_cell">
+                    <div class="col-sm-6 col-md-6 col-lg-3 team_cell">
                             <img class="team__img" src="images/tm.jpg" />
                         <span class="team__title">Aleksandar Petrović</span>
                         <p class="team__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
                     </div>
-                    <div class="col-sm-3 team_cell">
+                    <div class="col-sm-6 col-md-6 col-lg-3 team_cell">
                             <img class="team__img" src="images/tm.jpg" />
                         <span class="team__title">Dragana Nikolić</span>
                         <p class="team__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
@@ -318,7 +335,7 @@ https://getbootstrap.com/docs/4.1/content/reboot/
         </section>
         <!-- End of Section -->
         <!-- Section -->
-        <section class="mission bg-shadow">
+        <section class="mission bg-shadow"><a id="support"></a>
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-sm-12 text-center">
@@ -328,13 +345,13 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                         <p class="mission__paragraph">
                             Naš primarni zadatak je da obezbedimo Vašem poslu da napreduje. Za to smo tu 24 časa, 7 dana u nedelji.
                         </p>
-                        <a href="#" class="btn btn-danger">Javite se da Vam pomognemo</a>
+                        <a href="#contact" class="btn btn-danger">Javite se da Vam pomognemo</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End of Section -->
-
+        <a id="contact"></a>
         <!-- Section -->
         <section class="contact-form">
             <div class="container">
@@ -397,30 +414,32 @@ https://getbootstrap.com/docs/4.1/content/reboot/
                     <div id="my-map" class="google-map__area"></div>
                 </div>
             </div>
+            <a id="services"></a>
         </section>
         <!-- Section -->
-        <section class="portfolio text-center">
+        <section class="services text-center"><a id="testimonials"></a>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-3 portfolio_cell">
-                        <i class="lnr lnr-pie-chart portfolio__icon"></i>
-                        <span class="portfolio__title">Web Dizajn</span>
-                        <p class="portfolio__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
+                    <div class="col-sm-3 services_cell">
+                        <i class="lnr lnr-laptop-phone services__icon"></i>
+                        <span class="services__title">Web Dizajn</span>
+                        <p class="services__paragraph">Kreativna i moderna vizuelna resenja za Vas web sajt, Email, ili Landing page. U skladu sa trendovima i najboljom praksom. <br />
+                            Estetski dopadljiva i funkcionalna.</p>
                     </div>
-                    <div class="col-sm-3 portfolio_cell">
-                        <i class="lnr lnr-paw portfolio__icon"></i>
-                        <span class="portfolio__title">Izrada Web Sajtova</span>
-                        <p class="portfolio__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
+                    <div class="col-sm-3 services_cell">
+                        <i class="lnr lnr-earth services__icon"></i>
+                        <span class="services__title">Izrada Web Sajtova</span>
+                        <p class="services__paragraph">Pravimo moderne, brze i stabilne sajtove. Takodje pravimo i portale za vesti, društvene mreže, forume i namenske web aplikacije. Svi naši sajtovi su 100% responsive.</p>
                     </div>
-                    <div class="col-sm-3 portfolio_cell">
-                        <i class="lnr lnr-layers portfolio__icon"></i>
-                        <span class="portfolio__title">Digitalni Marketing</span>
-                        <p class="portfolio__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
+                    <div class="col-sm-3 services_cell">
+                        <i class="lnr lnr-bullhorn services__icon"></i>
+                        <span class="services__title">Digitalni Marketing</span>
+                        <p class="services__paragraph">Jedan od najboljih načina za trenutno povećanje posećenosti sajta jeste digitalni marketing. Puštanjem Google Ads, Facebook ili Newsletter kampanje povećaćete broj posetilaca sajta koji su istovremeno vaši potencijalni kupci ili klijenti.</p>
                     </div>
-                    <div class="col-sm-3 portfolio_cell">
-                        <i class="lnr lnr-rocket portfolio__icon"></i>
-                        <span class="portfolio__title">Web Aplikacije</span>
-                        <p class="portfolio__paragraph">Being creative means a lot to our team as it is the starting point of every project we work on.</p>
+                    <div class="col-sm-3 services_cell">
+                        <i class="lnr lnr-rocket services__icon"></i>
+                        <span class="services__title">Web Aplikacije</span>
+                        <p class="services__paragraph">Posovanje i saradnja preko interneta, jednostavan i siguran pristup podacima. <br />Sve to putem savremenih API-ja , kreiranih za Vase potrebe.</p>
                     </div>
 
                 </div>

@@ -3,7 +3,10 @@
 position: fixed;
 width: 100%;
 transition: all 500ms linear;
-background:rgba(53, 52, 52, 0.1);
+background:rgba(239, 239, 239, 0.4);
+    a{
+        color:slategrey;
+    }
 }
 
 .csnavbar.scrolled {
@@ -16,6 +19,19 @@ background:rgba(53, 52, 52, 0.1);
     a{
         color:slategrey;
     }
+}
+
+.csnavbar.scrolled .lnr{
+
+        color:black;
+
+}
+
+
+.csnavbar .lnr{
+
+    color:black;
+
 }
 
 .nav-poss{

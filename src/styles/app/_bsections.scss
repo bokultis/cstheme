@@ -135,9 +135,6 @@ section{
 }
 
 /************************************************/
-.team{
-
-}
 .team__img{
     display: block;
     margin: auto;
@@ -166,6 +163,46 @@ section{
 }
 
 /***************************************/
+
+/************************************************/
+.services__img{
+    display: block;
+    margin: auto;
+}
+
+.services__icon{
+    clear: both;
+    padding: 20px;
+    font-size: 70px;
+    font-weight: 100;
+    color: $danger-color;
+    display: block;
+}
+
+.services__title{
+    font-size: 16px;
+    clear: both;
+    font-weight: 600;
+}
+
+.services__paragraph{
+    color: $gray-900;
+    padding: 10px 0;
+    letter-spacing: .052em;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.services_cell{
+    padding: 45px;
+}
+
+.services_cell:last-child{
+    border-right: none;
+}
+
+/***************************************/
+
 .gallery{
     background-color: $gray-200;
     ul{
